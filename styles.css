@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#canvas1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(17, 17, 17);
+}
+
+.button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-style: dashed;
+  border-color: black;
+  background: white;
+  color: black;
+  z-index: 10000;
+}
